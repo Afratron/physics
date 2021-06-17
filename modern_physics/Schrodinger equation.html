@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>슈뢰딩거 방정식</title>
+    <style>
+      span {
+        font-family: serif;
+      }
+      #font {
+        font-size: 5px;
+        font-family: sans-serif;
+      }
+      #font2 {
+        font-family: cursive;
+      }
+      a{
+        color: #00AAFF;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h3><a href="phy1.html">슈뢰딩거 방정식</a></h3>
+    <li>파동함수: 양자역학에서 상태를 나타내기 위해 사용하는 양. 양자역학에서는 물질이 파동도 될 수 있어, 파동함수에 의해<br>
+    운동을 서술한다. 파동함수의 기호는 𝛹이며 프사이라고 읽는다. 이 파동함수는 슈뢰딩거 방정식의 해이다.</li>
+    <li>확률 밀도 함수: |𝛹|²라고 나타낸다(파동함수의 절댓값 제곱). 입자가 특정 위치에 있을 확률을 뜻한다.</li>
+    <li>슈뢰딩거 방정식: 입자를 파동으로 나타내어 파동함수 𝛹를 구하는 방정식이다.<br>두 가지로 이루어져있다. 시간에 의존하는 슈뢰딩거 방정식과 시간에 의존하지 않는 슈뢰딩거 방정식으로
+      나뉜다.<br><br>
+      <strong>시간에 의존하는 슈뢰딩거 방정식: iℏ * ∂𝛹/∂t = -ℏ²/2m * ∂²𝛹/∂x² + <span>V</span>𝛹<br>
+      시간에 의존하지 않는 슈뢰딩거 방정식: -ℏ²/2m * ∂²𝛹/∂x² + <span>V</span>𝛹=<span>E</span>𝛹<br></strong><br>
+      슈뢰딩거 방정식을 1차원 상자에 갇힌 입자에 대입한다면 다음과 같다.<br>
+      <img src="Schrodinger.png" width="20%"><br>
+      상자 외부에는 퍼텐셜 에너지가 ∞이기 때문에 입자는 상자 바깥으로 갈 수 없다. 이 때, 입자가 가질 수 있는 에너지는 다음과<br>
+      같다. 슈뢰딩거 방정식에 의하면,<br><br>
+      <strong><span>E</span><span id="font">n</span>=<span id="font2">n</span>²ℎ²/8<span id="font2">m</span><span>L</span>² (n=1,2,3,...)<br>
+      <span>E</span><span id="font">n</span>: 입자의 에너지, ℎ: 플랑크 상수, <span id="font2">m</span>: 질량, <span>L</span>: 1차원 상자의 길이
+      </strong><br><br>
+      위의 식은 에너지가 불연속적이라는 내용도 의미하고 있다. <a href="wave.html">위의 식은 물질파<br>
+      (프랑스의 물리학자 드브로이가 주장. 운동량을 가진 물질은 파동의 성질을 가진다.)의 파장을 이용하여 구할 수도 있다.</a><br><br>
+      <img src="wave.png" width="30%"><br>
+      위 그림은 물질파의 파장이다. 이 때, 입자가 발견될 확률이 제일 많은 곳은 각 파동의 마루와 골이다. 만약 n이 ∞이 된다면,<br>
+      모든 곳에서 입자가 발견될 확률이 제일 클 것이다.
+  </body>
+</html>
